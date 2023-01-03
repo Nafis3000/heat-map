@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heat Map</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+  </head>
+  <body>
+    <div class="flex flex-col justify-center items-center py-2">
+      <h1 id="title" class="text-2xl font-extrabold">Monthly Global Land-Surface Temperature</h1>
+      <svg id="canvas" class="bg-slate-200 "></svg>
+      <div id="tooltip"></div>
+      <div id="description" class="flex">
+        <p class="mx-2 text-xl font-bold text-center">Heat Map</p>
+        <p class="mx-3 text-xl text-center"><span class="font-bold">Base Temperature:</span> 8.66℃</p>
+        <p class="mx-3 text-xl text-center"><span class="font-bold">Months:</span> January - December</p>
+        <p class="mx-3 text-xl text-center"><span class="font-bold">Years:</span> 1753 - 2015</p>
+      </div>
+      <svg id="legend" class="mt-6">
+      </svg>
+    </div>
+  </body>
+  <script defer src="script.js"></script>
+  <script
+    defer
+    src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"
+  ></script>
+</html>

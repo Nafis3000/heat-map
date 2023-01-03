@@ -1,0 +1,9 @@
+#tooltip {
+    visibility: hidden;
+    height: auto;
+    width: auto;
+    margin-top: 2px;
+    color: #163D57;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
